@@ -1,0 +1,14 @@
+{
+  "name": "just",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "prev": "vite preview",
+    "start": "node server.js"
+  },
+  "license": "ISC"
+}
